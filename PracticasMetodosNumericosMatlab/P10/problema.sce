@@ -1,0 +1,5 @@
+plot(x,y1,'-r',x,y2,'ob',x,y3,'+c',x,y4,'.g')
+title('Carlos Alberto Medina Beltran')
+xlabel('ejex')
+ylabel('eje y')
+legend('función','deri. adelante','deri. atrás','deri. central')
