@@ -1,0 +1,56 @@
+MNR=[1,5,0,0]
+MNR(1,3)=fun(MNR(1,2));
+MNR(1,4)=dfun(MNR(1,2));
+MNR(2,2)=MNR(1,2)-MNR(1,3)/MNR(1,4);
+MNR(2,3)=fun(MNR(2,2));
+MNR(2,4)=dfun(MNR(2,2));
+MNR(3,2)=MNR(2,2)-MNR(2,3)/MNR(2,4);
+MNR(3,3)=fun(MNR(3,2));
+MNR(3,4)=dfun(MNR(3,2));
+MNR(4,2)=MNR(3,2)-MNR(3,3)/MNR(3,4);
+MNR(4,3)=fun(MNR(4,2));
+MNR(4,4)=dfun(MNR(4,2));
+MNR(5,2)=MNR(4,2)-MNR(4,3)/MNR(4,4);
+MNR(5,3)=fun(MNR(5,2));
+MNR(5,4)=dfun(MNR(5,2));
+MNR(6,2)=MNR(5,2)-MNR(5,3)/MNR(5,4);
+MNR(6,3)=fun(MNR(6,2));
+MNR(6,4)=dfun(MNR(6,2));
+MNR(7,2)=MNR(6,2)-MNR(6,3)/MNR(6,4);
+MNR(7,3)=fun(MNR(7,2));
+MNR(7,4)=dfun(MNR(7,2));
+MNR(8,2)=MNR(7,2)-MNR(7,3)/MNR(7,4);
+MNR(8,3)=fun(MNR(8,2));
+MNR(8,4)=dfun(MNR(8,2));
+
+for R=1:18 
+MNR(R,1) = R
+if R==1 then
+MNR(R,3)=fun(MNR(R,2));
+MNR(R,4)=dfun(MNR(R,2)); 
+else
+MNR(R,2)=MNR(R-1,2)-MNR(R-1,3)/MNR(R-1,4); 
+MNR(R,3)=fun(MNR(R,2));
+MNR(R,4)=dfun(MNR(R,2));	
+end
+end
+
+# Con while
+
+MNR = [1, 5, 0, 0, 100];
+R = 1;
+MNR(R,1) = R;
+MNR(R,3)=fun(MNR(R,2));
+MNR(R,4)=dfun(MNR(R,2));
+while MNR(R, 5) >= 1
+R = R + 1;
+MNR(R,1) = R;
+MNR(R,2)=MNR(R-1,2)-MNR(R-1,3)/MNR(R-1,4); 
+MNR(R,3)=fun(MNR(R,2));
+MNR(R,4)=dfun(MNR(R,2));
+err=perror(MNR(R,2), MNR(R-1, 2));	
+if err < 0 then
+err = err * -1;
+end
+MNR(R,5)=err;
+end
