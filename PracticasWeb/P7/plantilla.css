@@ -1,0 +1,162 @@
+			BODY.especial
+			{
+			 font-family: oblique, sans-serif;
+			 background-image: url(recursos/home.jpg);
+			 background-repeat: no-repeat;
+			 background-attachment: fixed;
+			 background-size:100% 100%;
+			 //"//"para comentarios en css
+			}
+			BODY.especial1
+			{
+			 background-color:green;
+			font-family: oblique, sans-serif;
+			background-image: url(recursos/bandams.jpg);
+			background-repeat: no-repeat;				
+			background-attachment: fixed;
+			background-position: 50px 100px;
+			 //"//"para comentarios en css
+			}
+			BODY.especial2
+			{
+			font-family: oblique, sans-serif;
+			 background-image: url(recursos/regueton.jpg);
+			 font-family: oblique, sans-serif;
+			 background-repeat: no-repeat;
+			 background-attachment: fixed;
+			 background-size:100% 100%;
+			 //"//"para comentarios en css
+			}
+			BODY.especial3
+			{
+			 font-family: oblique, sans-serif;
+			 background-image: url(recursos/eminem.jpg);
+			 background-repeat: no-repeat;
+			 background-attachment: fixed;
+			 background-size:100% 100%;
+			 //"//"para comentarios en css
+			}
+
+			A.especial
+			{
+				text-decoration:none;
+			}
+			H1.especial
+			{
+				font-family:comic sans ms;
+				text-decoration: none;
+				color:blue;
+			}
+			H2.especial
+			{
+				font-family:monospace;
+				text-decoration: none;
+				color:gray;
+			}
+			H4.especial
+			{
+				font-family:monospace;
+				text-decoration: none;
+				color:green;
+			}
+			.divp
+			{
+				font-family:comic sans ms;
+				font-style:black;
+				color:#F2F2F2;
+			}
+			.divp1
+			{
+				font-family:comic sans ms;
+				font-style:black;
+				color:red;
+			}
+			.divp2
+			{
+				color:yellow;
+				font: bold italic 18px monospace;
+			}
+			.divp3
+			{
+				font-family:arial;
+				font-style:italic;
+				color:white;
+			}
+			.divp4
+			{
+				font-family:verdana;
+				font-style:black;
+				color:yellow;
+			}
+			#regresar
+			{
+				color:gray;
+			}
+			.lista
+			{
+				list-style-type:square;
+			}
+			.divformulario
+			{
+			 background-image: url(recursos/cartelsanta.jpeg);
+			 background-repeat: no-repeat;
+			 background-size:50% 100%; 
+			}
+			#divprincipal
+			{
+				background-color: #ff0; //no le importa si hay otros ahi;
+				font-size: 1em;
+				border-radius:7px;
+				border: 4px solid blue;
+				padding: 10px;
+			}
+			.especialdiv
+			{
+				background-color: #AED7A8;
+				width: 650px;
+				margin-left:auto;
+				margin-right:auto;
+				border-radius:7px;
+				border: 2px dashed blue;
+				padding: 10px; //espaciado interno
+			}
+			.contenedor
+			{
+				margin: 30px; //agarra todo su margen;
+				width: 300px;
+				height: 230px;
+				border: 1px solid #000;
+				background-color: green;
+				padding: 5px;
+				
+			}
+			.floatleft
+			{
+				float: left;
+				width: 110px;
+				height: 90px;
+				background-color: #FDFBD5;
+				border: 1px solid #000;
+				padding: 2px;
+			}
+			.estiloletra
+				{
+				font-family: fantasy, sans-serif;
+				font-style: italic;
+				font-size: x-large;
+				color: orange;
+				}
+			.estiloletra1
+				{
+				font-family: verdana;
+				font-style: italic;
+				font-size: x-large;
+				color: red;
+				text-decoration: underline;
+				}
+			.divptable
+			{
+				font-family:comic sans ms;
+				font-style:black;
+				color:purple;
+			}
