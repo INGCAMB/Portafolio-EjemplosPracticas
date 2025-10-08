@@ -1,0 +1,129 @@
+			BODY.especial
+			{
+			 font-family: oblique, sans-serif;
+			 background-image: url(recursos/spiderman.jpg);
+			 background-repeat: no-repeat;
+			 background-attachment: fixed;
+			 background-size:100% 100%;
+			 //"//"para comentarios en css
+			}
+			BODY.especial1
+			{
+			 font-family: oblique, sans-serif;
+			 background-image: url(recursos/spiderman1.jpg);
+			 background-repeat: no-repeat;
+			 background-attachment: fixed;
+			 background-size:100% 100%;
+			 //"//"para comentarios en css
+			}
+			BODY.especial2
+			{
+			 font-family: oblique, sans-serif;
+			 background-image: url(recursos/spiderman4.jpg);
+			 background-repeat: no-repeat;
+			 background-attachment: fixed;
+			 background-size:100% 100%;
+			 //"//"para comentarios en css
+			}
+			BODY.especial3
+			{
+			 font-family: oblique, sans-serif;
+			 background-image: url(recursos/spiderman2.jpg);
+			 background-repeat: no-repeat;
+			 background-attachment: fixed;
+			 background-size:100% 100%;
+			 //"//"para comentarios en css
+			}
+			BODY.especial4
+			{
+			 font-family: oblique, sans-serif;
+			 background-image: url(recursos/spiderman3.jpg);
+			 background-repeat: no-repeat;
+			 background-attachment: fixed;
+			 background-size:100% 100%;
+			 //"//"para comentarios en css
+			}
+			.foto1
+			{
+			font-family: oblique, sans-serif;
+			 background-image: url(recursos/spiderman5.jpg);
+			 background-repeat: no-repeat;
+			 background-size:50% 100%;
+			}
+			A.especial
+			{
+				text-decoration:none;
+				color:brown;
+			}
+			H1.especial
+			{
+				font-family:comic sans ms;
+				text-decoration: none;
+				color:blue;
+			}
+			H2.especial
+			{
+				font-family:monospace;
+				text-decoration: none;
+				color:gray;
+			}
+			H4.especial
+			{
+				font-family:monospace;
+				text-decoration: none;
+				color:green;
+			}
+			.divp
+			{
+				font-family:comic sans ms;
+				font-style:black;
+				color:#F2F2F2;
+			}
+			.divp1
+			{
+				font-family:comic sans ms;
+				font-style:black;
+				color:red;
+			}
+			.divp2
+			{
+				font-family:monospace;
+				font-style:italic;
+				color:red;
+			}
+			.divp3
+			{
+				font-family:arial;
+				font-style:italic;
+				color:white;
+			}
+			.divp4
+			{
+				font-family:verdana;
+				font-style:black;
+				color:yellow;
+			}
+			.divp5
+			{
+				font-family:verdana;
+				font-style:black;
+				color:yellow;
+			}
+			.especialdiv
+			{
+				background-color: #AED7A8;
+				width: 650px;
+				margin-left:auto;
+				margin-right:auto;
+				border-radius:7px;
+				border: 2px dashed blue;
+				padding: 10px; //espaciado interno
+			}
+			.especialdiv1
+			{
+				background-color: #AED7A8;
+				width: 900px;
+				border-radius:7px;
+				border: 2px dashed blue;
+				padding: 10px; //espaciado interno
+			}
