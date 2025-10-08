@@ -1,0 +1,181 @@
+<html>
+    <head>
+        <title>Ejercicio de elementos</title>
+		<!--<link rel="stylesheet" href="css/estilos.css"> <!-- Por alguna razón sea del hosting o de otra rzaon no funciona en su totalidad el archivo CSS, como segunda opcion se uso HTML-->
+        <meta charset="UTF-8"/>
+        <style>
+        * {
+            text-align: justify;
+        }
+        
+        body {
+            background-color: rgb(136, 170, 176)
+        }
+
+        .contenedor {
+            width: 45%;
+            margin: auto;
+            padding: 20px;
+            margin-top: 50px;
+            background: rgb(255, 108, 73);
+            border: 3px solid black;
+            border-radius: 5px;
+        }
+
+        .seccion {
+            padding: 20px;
+            background: #71D8EB;
+            margin-top: 20px;
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+
+        p {
+            font-size: large;
+        }
+
+        .texto {
+            background-color: #BA8E8E;
+            border-radius: 1px;
+        }
+
+        .ejemplo {
+            background-color: #18B1CD;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px double black;
+            border-radius: 2px;
+        }
+
+        .resultado {
+            background-color: #C9F7FF;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px double black;
+            border-radius: 2px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="contenedor">
+            <h1>Tutorial de: Elementos HTML</h1>
+            <h2>Medina Beltran Carlos Alberto</h2>
+            <p>En este tutorial  se describirán algunos de los elementos y atributos HTML, es decir, se mencionarán características de los elementos y la manera de usarse a modo de tutorial.</p>
+
+            <hr>
+
+            <div class="seccion">
+                <h3 style="color: red;">Elemento H1 - Encabezados</h3>
+                <p>Los elementos de encabezado implementan seis niveles de encabezado del documento, <code class="texto">&lt;h1&gt;</code> es el más importante, y <code class="texto">&lt;h6&gt;</code>, el menos importante. Un elemento de encabezado describe brevemente el tema de la sección que presenta. La información de encabezado puede ser usada por los agentes usuarios, por ejemplo, para construir una tabla de contenidos para un documento automáticamente.</p>
+                <p>El siguiente código muestra cómo usar los encabezados</p>
+                <div class="ejemplo">
+                    <p>&lt;h1&gt;Texto 1&lt;/h1&gt;</p>
+                    <p>&lt;h2&gt;Texto 2&lt;/h2&gt;</p>
+                    <p>&lt;h3&gt;Texto 3&lt;/h3&gt;</p>
+                    <p>&lt;h4&gt;Texto 4&lt;/h4&gt;</p>
+                    <p>&lt;h5&gt;Texto 5&lt;/h5&gt;</p>
+                    <p>&lt;h6&gt;Texto 6&lt;/h6&gt;</p>
+                </div>
+                <p>Este es el resultado</p>
+                <div class="resultado">
+                    <h1>Texto 1</h1>
+                    <h2>Texto 2</h2>
+                    <h3>Texto 3</h3>
+                    <h4>Texto 4</h4>
+                    <h5>Texto 5</h5>
+                    <h6>Texto 6</h6>
+                </div>
+            </div>
+
+            <div class="seccion" id="parrafos">
+                <h3 style="color: red;">Elemento P - Párrafos</h3>
+                <p>El elemento p (párrafo) es el apropiado para distribuir el texto en párrafos. Sus características son:</p>
+                <ul>
+                    <li>Sus etiquetas son: &lt;p&gt; y &lt;/p&gt; (la de cierre es opcional).</li>
+                    <li>Crea una caja: en bloque.</li>
+                    <li>Está definido como: Elemento de frase.</li>
+                    <li>Puede contener: cero o más elementos en linea.</li>
+                </ul>
+                <p>El siguiente código muestra cómo usar los párrafos</p>
+                <div class="ejemplo">
+                    <p>&lt;p&gt;Este es el primer párrafo.&lt;/p&gt;</p>
+                    <p>&lt;p&gt;Este es el segundo párrafo.&lt;/p&gt;</p>
+                </div>
+                <p>Este es el resultado</p>
+                <div class="resultado">
+                    <p>Este es el primer párrafo.</p>
+                    <p>Este es el segundo párrafo.</p>
+                </div>
+            </div>
+
+            <div class="seccion">
+                <h3 style="color: red;">Elemento IMG - Imágenes</h3>
+                <p>El elemento de imagen HTML &lt;img&gt; representa una imagen en el documento.</p>
+                <p>El siguiente código muestra cómo usar las imágenes</p>
+                <div class="ejemplo">
+                    <p>&lt;img src=&quot;imagenes/imagen.jpg&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot;&gt;</p>
+                </div>
+                <p>Este es el resultado</p>
+                <div class="resultado">
+                    <img src="imagenes/imagen.jpg" style="display: block; margin-left: auto; margin-right: auto;">
+                </div>
+            </div>
+
+            <div class="seccion">
+                <h3 style="color: red;">Elemento A - Ancla</h3>
+                <p>El Elemento HTML Anchor &lt;a&gt; crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.</p>
+                <p>El siguiente código muestra cómo usar las anclas</p>
+                <div class="ejemplo">
+                    <p>&lt;p&gt;Se puede redirigir de diferentes maneras, se puede dirigir a un sitio web como <br>&lt;a href=&quot;https://www.google.com&quot;&gt;Google&lt;/a&gt;,<br> alguna otra sección del mismo sitio como a los &lt;a href=&quot;#parrafos&quot;&gt;párrafos&lt;/a&gt;,<br> e incluso a un &lt;a href=&quot;mailto:carlos.medina18@tectijuana.edu.mx&quot;&gt;correo electrónico&lt;/a&gt;.&lt;/p&gt;</p>
+                </div>
+                <p>Este es el resultado</p>
+                <div class="resultado">
+                    <p>Se puede redirigir de diferentes maneras, se puede dirigir a un sitio web como <a href="https://www.google.com">Google</a>, alguna otra sección del mismo sitio como a los <a href="#parrafos">párrafos</a>, e incluso a un <a href="mailto:carlos.medina18@tectijuana.edu.mx">correo electrónico</a>.</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="seccion">
+                < style="color: red;">Atributo SRC - Origen</h3>
+                <p>Este atributo es obligatorio para las imágenes (elemento img), por lo que su uso no tiene mucha ciencia, mas que el origen puede ser relativo o absoluto dependiendo de la fuente de la imagen.</p>
+                <p>El siguiente código muestra cómo usar el atributo</p>
+                <div class="ejemplo">
+                    <p>&lt;img src=&quot;imagenes/imagen.jpg&quot; alt=&quot;Imagen que toma directamente de este sitio&quot;&gt;</p>
+                    <p>&lt;img src=&quot;https://quondos.com/mag/wp-content/uploads/2019/12/foto-unsplash-1024x400.jpg&quot; alt=&quot;Imagen que depende de su disponibilidad en el Internet&quot;&gt;</p>
+                </div>
+                <p>Este es el resultado</p>
+                <div class="resultado">
+                    <img src="imagenes/imagen.jpg" alt="Imagen que toma directamente de este sitio">
+                    <img src="https://conceptodefinicion.de/wp-content/uploads/2017/02/Noche.jpg" alt="Imagen que depende de su disponibilidad en el Internet">
+                </div>
+            </div>
+
+            <div class="seccion">
+                <h3 style="color: red;">Atributo STYLE - Estilo</h3>
+                <p>Este atributo existe como alternativa del elemento style de HTML y el archivo de CSS (referido desde un HTML con el elemento link), en caso específico en el que se quiera dar un estilo único a un elemento en concreto. Se escribe exactamente lo mismo que se escribiría dentro de una etiqueta style o de un archivo CSS, pero con la diferencia de que se escribe todo en una sola línea.</p>
+                <p>El siguiente código muestra cómo usar el atributo</p>
+                <div class="ejemplo">
+                    <p>&lt;h1 style=&quot;color: red; text-align: right;&quot;&gt;Titulo 1&lt;/h1&gt;</p>
+                </div>
+                <p>Este es el resultado</p>
+                <div class="resultado">
+                    <h1 style="color: red; text-align: right;">Titulo 1</h1>
+                </div>
+            </div>
+
+            <div class="seccion">
+                <h3 style="color: red;">Atributo HREF - Referencia de hipervínculo</h3>
+                <p>Este atributo es obligatorio para el elemento de ancla (a), ya que este atributo es el que le da sentido al elemento, en este atributo es donde se escribe la referencia relativa o absoluta a donde redirigirá el elemento; ergo, se puede escribir tanto un directorio dentro del sitio, una sección de la misma página u otra, o un url de un sitio externo.</p>
+                <p>El siguiente código muestra cómo usar el atributo</p>
+                <div class="ejemplo">
+                    <p>&lt;p&gt;Este texto te puede redirigir tanto al sitio de &lt;a href=&quot;https://www.google.com&quot;&gt;Google&lt;/a&gt; como a la secci&oacute;n de &lt;a href=&quot;#parrafos&quot;&gt;p&aacute;rrafos&lt;/a&gt; que se encuentra arriba de esta misma p&aacute;gina.&lt;/p&gt;</p>
+                </div>
+                <p>Este es el resultado</p>
+                <div class="resultado">
+                    <p>Este texto te puede redirigir tanto al sitio de <a href="https://www.google.com">Google</a> como a la sección de <a href="#parrafos">párrafos</a> que se encuentra arriba de esta misma página.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+		* {
+            text-align: justify;
+        }
+        
+        body {
+            background-color: rgb(136, 170, 176)
+        }
+
+		table, th, td {
+			border:1px solid black;
+		}
+
+        .contenedor {
+            width: 45%;
+            margin: auto;
+            padding: 20px;
+            margin-top: 50px;
+            background: rgb(255, 108, 73);
+            border: 3px solid black;
+            border-radius: 5px;
+        }
+
+        .seccion {
+            padding: 20px;
+            background: #71D8EB;
+            margin-top: 20px;
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+
+        p {
+            font-size: large;
+        }
+
+        .texto {
+            background-color: #BA8E8E;
+            border-radius: 1px;
+        }
+
+        .ejemplo {
+            background-color: #18B1CD;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px double black;
+            border-radius: 2px;
+        }
+
+        .resultado {
+            background-color: #C9F7FF;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px double black;
+            border-radius: 2px;
+        }
