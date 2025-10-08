@@ -1,0 +1,96 @@
+BODY
+{
+  background-color:green;
+  font-family: oblique, sans-serif;
+  background-image: url(RECURSOS/wow.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 700px 200px;
+}
+H1
+{
+  color:blue;
+  text-align:left;
+  text-decoration:underline;
+}
+H2
+{
+  color:pink;
+  text-align:center;
+  text-decoration:underline;
+}
+H3
+{
+  color:yellow;
+  text-align:right;
+  text-decoration:underline;
+}
+H1.especial
+{
+  font-family:monospace;
+  text-decoration:none;
+  color:gray;
+}
+H1,H2,H3
+{
+  font-family:verdana;
+}
+.especialdiv
+{
+  background-color: #AED7A8;
+  width: 650px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:7px;
+  border: 2px dashed blue;
+  padding: 10px; //espaciado interno
+}
+.contenedor
+{
+  margin: 30px; //agarra todo su margen;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #000;
+  padding: 5px;
+  
+}
+.floatleft
+{
+  float: left;
+  width: 110px;
+  height: 90px;
+  background-color: #FDFBD5;
+  border: 1px solid #000;
+  padding: 2px;
+}
+.estiloletra
+{
+  font-family: fantasy, sans-serif;
+  font-style: italic;
+  font-size: x-large;
+}
+.floatright
+{
+  float: right;
+  width: 200px;
+  height: 200px;
+  background-color: #FDFB00;
+  border: 2px dashed #121212;
+  padding: 2px;
+}
+.absoluto
+{
+  background-color: #ff0; //no le importa si hay otros ahi;
+  font-size: 1.3em;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+.absoluto2
+{
+  background-color: #f00; 
+  font-size: 1.3em;
+  position: absolute;
+  left: 40px;
+  top: 20px;
+}
