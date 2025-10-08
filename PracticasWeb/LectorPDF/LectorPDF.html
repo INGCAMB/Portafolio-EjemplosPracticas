@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Lector PDF</title>
+        <meta charset="UTF-8"/>
+        <style>
+        * {
+            text-align: justify;
+        }
+        
+        body {
+            background-color: rgb(136, 170, 176)
+        }
+		
+        .contenedor {
+            width: 45%;
+            margin: auto;
+            padding: 20px;
+            margin-top: 50px;
+            background: rgb(255, 108, 73);
+            border: 3px solid black;
+            border-radius: 5px;
+        }
+
+        .seccion {
+            padding: 20px;
+            background: #71D8EB;
+            margin-top: 20px;
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+
+        p {
+            font-size: large;
+        }
+
+        .texto {
+            background-color: #BA8E8E;
+            border-radius: 1px;
+        }
+
+        .ejemplo {
+            background-color: #18B1CD;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px double black;
+            border-radius: 2px;
+        }
+
+        .resultado {
+            background-color: #C9F7FF;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px double black;
+            border-radius: 2px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="contenedor">
+            <h1>Lector PDF</h1>
+            <h2>Medina Beltran Carlos Alberto</h2>
+            <p>En este ejercicio se mencionarán como hacer un lector-visor pdf en página HTML manera de usarse a modo de tutorial.</p>
+
+            <hr>
+
+            <div class="seccion">
+                <h3 style="color:red">Cómo hacer un lector de PDF en la página HTML</h3>
+                <p>Para hacer un lector de PDF dentro de nuestro sitio actualmente es sencillo puesto que existen servicios de terceros que nos proporcinan lo necesario para poder llevar a cabo lo que buscamos.</p>
+                <p>En este caso vamos a utilizar el lector PDF que nos proporciona Google, que para acceder a este, se tiene que manejar la etiqueta <code class="texto">&lt;iframe&gt;</code>.</p>
+                <p>Tenemos que tomar en cuenta que en la etiqueta se van a utilizar los siguientes atributos:</p>
+                <ul>
+                    <li>scr: Aquí se pondrá la liga de el lector de Google, y seguido se pondrán 2 propiedades extras <b>DENTRO</b> de la misma liga; estos son la <i>url</i> que tendrá la liga del pdf que queremos visualizar, y una última propiedad llamada <i>embedded</i> que este forzosamente tendrá el valor de "true" para que funcione el visualizador</li>
+                    <li>style: Se necesita poner estilo CSS al iframe para determinar el tamaño específico del contenedor; es decir que tendrá las propiedades de width y height.</li>
+                    <li>frameborder: Este atributo es opcional, pero se agrega en caso de que se le quiera dar un poco más de estilo al contenedor.</li>
+                </ul>
+                <p>Para explicar cómo extraer el lector a nuestro sitio, necesitamos seguir la siguiente sintaxis de la etiqueta.</p>
+                <div class="ejemplo">
+                    <p>&lt;iframe src=&quot;http://docs.google.com/gview?url=<i>{LigaDeTuPdf}</i>&amp;embedded=true&quot; style=&quot;width:100%; height:700px;&quot; frameborder=&quot;1&quot;&gt;&lt;/iframe&gt;</p>
+                    <p>Si el archivo es local pones en SRC el directorio si no tienes que poner url activo.</p>
+                </div>
+                <p>Nótese que en src se escribe primero la dirección del visor de google, y se le manda como parametros nuestra liga de nuestro pdf y después el embedded=true, seguido tenemos los estilos, los cuales se recomiendan esas propiedades puestas, pero pueden ser modificables, admeás el frameborder que ya se mencionó que es completamente opcional.</p>
+            </div>
+
+            <div class="seccion">
+                <h3 style="color:red">Lector de PDF</h3>
+                <p>Tomando en cuenta la explicación de cómo hacer el lector, vamos a cambiar el url a la liga de nuestro pdf, para este ejemplo, el PDF se encuenta en el mismo directorio de esta página web, pero debido a las exigencias del servicio de Google, el pdf tiene que ser accedido por internet, es decir que se tiene que escribir el url completo desde http, el cual es el siguiente:<br> http://progwebcamb.epizy.com/lector_pdf/Carta_programacion_web.pdf</p>
+                <!-- Este solo funciona si esta el url activo en linea <iframe src="http://docs.google.com/gview?url=http://progwebcamb.epizy.com/lector_pdf/Carta_programacion_web.pdf&embedded=true" style="width:100%; height:700px;" frameborder="1"></iframe> -->
+                <iframe src="Carta_programacion_web.pdf" style="width:100%; height:700px;" frameborder="1"></iframe>
+                <p>Las propiedades mostradas en la sintaxis de ejemplo no se modificaron mucho, solamente cabe recalcar que con la propiedad width:100% lo que hace el iframe es adaptar el ancho al 100% de su contenedor.
+            </div>
+        </div>
+    </body>
+</html>
