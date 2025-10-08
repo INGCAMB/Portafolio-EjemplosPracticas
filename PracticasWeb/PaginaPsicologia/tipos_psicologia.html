@@ -1,0 +1,291 @@
+<html>
+    <head>
+        <title>Psicología</title>
+        <!-- Ingresamos el boodstrap y agregamos el utf-8 para el ingreso de caracteres especiales en el texto -->
+        <meta charset="UTF-8"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- Estilo css para modificar el fondo y el tipo de letra en toda la pagina -->
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <!-- Este div es la cabezera principal del sitio -->
+        <div class="seccion">
+            <div class="nav nav-tabs">
+                <h2 class="texto">PsicologíaTJ<img src="imagenes/icono.png" alt="icono principal"></h2>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="home.html"><h5 class="subtitulosmenu">Inicio</h5></a></li>
+                    <li class="nav-item"><a class="nav-link" href="videos_psicologia.html"><h5 class="subtitulosmenu">Videos de psicología</h5></a></li>
+                    <li class="nav-item"><a class="nav-link" href="tipos_psicologia.html"><h5 class="subtitulosmenu">Tipos de psicología</h5></a></li>
+                    <li class="nav-item"><a class="nav-link" href="licenciaturas_psicologia.html"><h5 class="subtitulosmenu">Licenciaturas de psicología</h5></a></li>
+                    <li class="nav-item"><a class="nav-link" href="lugares_psicologia.html"><h5 class="subtitulosmenu">Lugares de psicología en Tijuana</h5></a></li>
+                    <li class="nav-item"><a class="nav-link" href="citas_psicologia.html"><h5 class="subtitulosmenu">Citas en Tijuana</h5></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Tabla con información de temas, subtemas y tabla comparativa relevante al indice del tema -->
+        <table style="width:100%; margin-top:10px; background-color:#cb5252;">
+            <tr>
+                <td>
+                    <ul>
+                        <a href="#tema1"><li><h5 class="titulolista" style="color:white;">Ramas de la psicología</h5></li></a>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <a href="#tema2"><li><h5 class="titulolista" style="color:white;">Psicología básica</h5></li></a>
+                        <ul>
+                            <a href="#subtema1"><li><h5 class="subtitulolista" style="color:white;">Psicología cognitiva</h5></li></a>
+                            <a href="#subtema2"><li><h5 class="subtitulolista" style="color:white;">Psicología del aprendizaje</h5></li>
+                            <a href="#subtema3"><li><h5 class="subtitulolista" style="color:white;">Psicología evolutiva</h5></li></a>
+                            <a href="#subtema4"><li><h5 class="subtitulolista" style="color:white;">Psicopatología</h5></li></a>
+                            <a href="#subtema5"><li><h5 class="subtitulolista" style="color:white;">Psicología del arte</h5></li></a>
+                            <a href="#subtema6"><li><h5 class="subtitulolista" style="color:white;">Psicología de la personalidad</h5></li></a>
+                        </ul>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <a href="#tema3"><li><h5 class="titulolista" style="color:white;">Psicología aplicada</h5></li></a>
+                        <ul>
+                            <a href="#subtema7"><li><h5 class="subtitulolista" style="color:white;">Psicología clínica</h5></li></a>
+                            <a href="#subtema8"><li><h5 class="subtitulolista" style="color:white;">Psicología educativa</h5></li></a>
+                            <a href="#subtema9"><li><h5 class="subtitulolista" style="color:white;">Psicología infantil</h5></li></a>
+                            <a href="#subtema10"><li><h5 class="subtitulolista" style="color:white;">Psicología social</h5></li></a>
+                            <a href="#subtema11"><li><h5 class="subtitulolista" style="color:white;">Psicología industrial</h5></li></a>
+                            <a href="#subtema12"><li><h5 class="subtitulolista" style="color:white;">Psicología forense</h5></li></a>
+                            <a href="#subtema13"><li><h5 class="subtitulolista" style="color:white;">Psicología del deporte</h5></li></a>
+                        </ul>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Contenedor principal de la página, aquí está toda la información relevante -->
+        <div class="contenedor">
+            <h1 id="tema1">Ramas de la psicología</h1>
+            <p>La psicología presenta una enorme cantidad de ramas y divisiones, que pueden agruparse en dos conjuntos de acuerdo a sus características comunes, de esta manera:</p>
+            <hr>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologia.jpg" alt="Psicología" style="width:100%;height:50%;">
+            </div>
+            <h6>Los objetivos generales de la psicología pueden resumirse en la comprensión de los procesos propios de la mente del ser humano.</h6>
+            <hr>
+            <h2 id="tema2">Psicología básica</h2>
+            <p>Ubicada como un campo del saber entre lo biológico del hombre y lo social o lo humano, se centra en el entendimiento y la recopilación de información sobre los procesos básicos del pensamiento humano. Comprende las siguientes subramas:</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiabasica.jpg" alt="Psicología básica" style="width:100%;height:50%;">
+            </div>
+            <h6>Es la parte de la psicología que tiene como función fundamental la recopilación y organización estructurada de conocimientos nuevos acerca de los fundamentos de actuación de los procesos psicológicos básicos, como la percepción, la atención, la memoria, el lenguaje, el aprendizaje, el razonamiento y la resolución de problemas.</h6>
+            <hr>
+            <h3 id="subtema1">Psicología cognitiva</h3>
+            <p>Estudia los procesos mentales que permiten el conocimiento, es decir, la experiencia. La percepción, la memoria, el lenguaje y el pensamiento son sus áreas de interés.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiacognitiva.jpg" alt="Psicología cognitiva" style="width:100%;height:50%;">
+            </div>
+            <h6>La psicología cognitiva conductual utiliza los principios del aprendizaje y el desarrollo humanos.</h6>
+            <hr>
+            <h3 id="subtema2">Psicología del aprendizaje</h3>
+            <p>Se dedica al estudio de los procesos de adaptación y cambio más o menos permanente en el individuo, es decir, al modo en que el ser humano aprende.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiaaprendizaje.jpg" alt="Psicología del aprendizaje" style="width:100%;height:50%;">
+            </div>
+            <h6>La psicología busca comprender la conducta humana.</h6>
+            <hr>
+            <h3 id="subtema3">Psicología evolutiva</h3>
+            <p>Estudia las distintas etapas del crecimiento y desarrollo de la psique humana a lo largo de su vida.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiaevolutiva.jpg" alt="Psicología evolutiva" style="width:100%;height:50%;">
+            </div>
+            <h6>Esta rama de la psicología estudia los cambios producidos en la mente a lo largo de la vida.</h6>
+            <hr>
+            <h3 id="subtema4">Psicopatología</h3>
+            <p>El estudio de las “anormalidades” o trastornos de la psique, desde un método eminentemente descriptivo.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicopatologia.jpg" alt="Psicopatología" style="width:100%;height:50%;">
+            </div>
+            <h6>Estudio de las enfermedades o trastornos mentales.</h6>
+            <hr>
+            <h3 id="subtema5">Psicología del arte</h3>
+            <p>Estudia los fenómenos de la creatividad, la creación y la expresión artística desde el punto de vista de la mente humana.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiaarte.jpg" alt="Psicología del arte" style="width:100%;height:50%;">
+            </div>
+            <h6>La psicología del arte es un ámbito de la psicología que tiene como elementos de estudio la creación y la apreciación artística desde un punto de vista psicológico.</h6>
+            <hr>
+            <h3 id="subtema6">Psicología de la personalidad</h3>
+            <p>Intenta construir modelos de comprensión de la personalidad humana.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiapersonalidad.jpg" alt="Psicología de la personalidad" style="width:100%;height:50%;">
+            </div>
+            <h6>La psicología de la personalidad es la rama de la psicología que estudia la personalidad y su variación entre los individuos.</h6>
+            <hr>
+            <h2 id="tema3">Psicología aplicada</h2>
+            <p>También llamada psicología profesional, es el conocimiento básico psicológico puesto al servicio de la resolución de problemas puntuales de la sociedad. Comprende las siguientes subramas:</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiaaplicada.jpg" alt="Psicología aplicada" style="width:100%;height:50%;">
+            </div>
+            <h6>La psicología aplicada consiste en la utilización de los conocimientos obtenidos y los métodos desarrollados por la psicología básica con el objetivo de resolver problemas cotidianos.</h6>
+            <hr>
+            <h3 id="subtema7">Psicología clínica</h3>
+            <p>Es la que lidia con pacientes, atendiendo sus sufrimientos mentales y emocionales y permitiéndoles llevar una vida lo más funcional posible según el caso.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiaclinica.png" alt="Psicología clínica" style="width:100%;height:50%;">
+            </div>
+            <h6>es la rama en la que se realiza la evaluación, diagnóstico, prevención y tratamiento de personas con algún tipo de trastorno psicológico que afecta a su calidad de vida.</h6>
+            <hr>
+            <h3 id="subtema8">Psicología educativa</h3>
+            <p>Centrada en el aprendizaje y en el crecimiento del individuo, colabora con la construcción de hábitos y entornos escolares más propicios para formar las generaciones venideras.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiaeducativa.jpg" alt="Psicología educativa" style="width:100%;height:50%;">
+            </div>
+            <h6>Es una subdisciplina de la psicología que se encarga de estudiar las formas en que se lleva a cabo el aprendizaje humano.</h6>
+            <hr>
+            <h3 id="subtema9">Psicología infantil</h3>
+            <p>Junto con la infanto-juvenil, se especializan en los problemas emocionales o mentales durante las primeras etapas de la vida humana.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiainfantil.jpg" alt="Psicología infantil" style="width:100%;height:50%;">
+            </div>
+            <h6>Se encarga de estudiar el comportamiento del niño, desde su nacimiento hasta su adolescencia.</h6>
+            <hr>
+            <h3 id="subtema10">Psicología social</h3>
+            <p>Se centra en los grupos humanos y en las interacciones humanas, haciendo énfasis en la importancia del entorno en la configuración de la psique.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiasocial.png" alt="Psicología social" style="width:100%;height:50%;">
+            </div>
+            <h6>Es una rama dentro de la psicología que analiza los procesos de índole psicológica que influencian al modo en que funciona una sociedad.</h6>
+            <hr>
+            <h3 id="subtema">Psicología industrial</h3>
+            <p>Similar a la social, pero aplicada a los diversos ambientes laborales y a las situaciones mentales involucradas en el trabajo.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiaindustrial.jpg" alt="Psicología industrial" style="width:100%;height:50%;">
+            </div>
+            <h6>Es la disciplina que se encarga de la selección, la formación y la superación de los trabajadores.</h6>
+            <hr>
+            <h3 id="subtema12">Psicología forense</h3>
+            <p>Colabora con la justicia en la comprensión mental de criminales, homicidios y otras situaciones límite.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiaforense.jpg" alt="Psicología forense" style="width:100%;height:50%;"> <!-- ESTE ES EL QUE SIGUE -->
+            </div>
+            <h6>Es una rama de la Psicología jurídica que se ocupa de auxiliar al proceso de administración de Justicia en el ámbito tribuna licio.</h6>
+            <hr>
+            <h3 id="subtema13">Psicología del deporte</h3>
+            <p>Aplica sus conocimientos al campo atlético y deportivo, para comprender lo que allí ocurre mental y emocionalmente.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiadeporte.png" alt="Psicología del deporte" style="width:100%;height:50%;"> <!-- ESTE ES EL QUE SIGUE -->
+            </div>
+            <h6>Es una ciencia interdisciplinaria que toma elementos de la psicología, la fisiología, la kinesiología, la sociología y la biomecánica.</h6>
+            <hr>
+        </div>
+
+        <!-- Tabla con información relevante para el tema -->
+        <table style="width:100%; margin-top:20px; background-color:#cb5252;">
+            <tr>
+                <td colspan="3" style="text-align: center;">Tabla comparativa de psicología</td>
+            </tr>
+            <tr>
+                <th style="text-align: center;">Rama de psicología</th>
+                <th style="text-align: center;">Aplicaciones</th> 
+                <th style="text-align: center;">Áreas de empleo</th> 
+            </tr>
+            <tr>
+                <td>Neuropsicología clínica</td>
+                <td>Comportamientos en personas con traumas o lesiones cerebrales o que nacieron con defectos neurológicos.</td>
+                <td>Hospitales, universidades, investigación.</td>
+            </tr>
+            <tr>
+                <td>Psicología biológica</td>
+                <td>Actividad cerebral y estados mentales.</td>
+                <td>Universidades, investigación.</td>
+            </tr>
+            <tr>
+                <td>Psicología clínica</td>
+                <td>Psicopatología, desórdenes mentales, emocionales y de comportamiento.</td>
+                <td>Hospitales, clínicas de salud mental, consulta privada.</td>
+            </tr>
+            <tr>
+                <td>Psicología clínica del niño y el adolescente</td>
+                <td>Desórdenes de comportamiento en niños y adolescentes.</td>
+                <td>Hospitales, clínicas de salud mental, consulta privada.</td>
+            </tr>
+            <tr>
+                <td>Psicología cognitiva y del comportamiento</td>
+                <td>Terapias conductuales.</td>
+                <td>Hospitales, clínicas de salud mental, consulta privada.</td>
+            </tr>
+            <tr>
+                <td>Psicología comparativa</td>
+                <td>Estudio de los comportamientos en especies animales.</td>
+                <td>Universidades, investigación.</td>
+            </tr>
+            <tr>
+                <td>Psicología comunitaria</td>
+                <td>Análisis de procesos e interacciones sociales y diseño de intervenciones sociales.</td>
+                <td>Organizaciones gubernamentales.</td>
+            </tr>
+            <tr>
+                <td>Psicología de la salud</td>
+                <td>Manejo de los elementos psicológicos en enfermedades físicas.</td>
+                <td>Hospitales, clínicas, consulta privada.</td>
+            </tr>
+            <tr>
+                <td>Psicología del deporte</td>
+                <td>Manejo del estrés en competencias deportivas.</td>
+                <td>Instituciones y centros deportivos, universidades, consulta privada.</td>
+            </tr>
+            <tr>
+                <td>Psicología del desarrollo</td>
+                <td>Transformaciones biológicas, emocionales y de comportamiento a lo largo de la vida.</td>
+                <td>Universidades, investigación.</td>
+            </tr>
+            <tr>
+                <td>Psicología de ingeniería</td>
+                <td>Diseño de productos con mayor aceptación.</td>
+                <td>Empresas, industrias.</td>
+            </tr>
+            <tr>
+                <td>Psicología escolar</td>
+                <td>Promover ambientes de aprendizaje saludables.</td>
+                <td>Escuelas, colegios, universidades.</td>
+            </tr>
+            <tr>
+                <td>Psicología experimental</td>
+                <td>Manipular variables en experimentos para investigar fenómenos psicológicos.</td>
+                <td>Universidades, investigación.</td>
+            </tr>
+            <tr>
+                <td>Psicología forense</td>
+                <td>Colaborar con reportes y testimonio sobre aspectos psicológicos en casos legales.</td>
+                <td>Cortes de Justicia, institutos correccionales, agencias legales.</td>
+            </tr>
+            <tr>
+                <td>Psicología gerontológica</td>
+                <td>Tratamiento de problemas mentales en la tercera edad.</td>
+                <td>Consulta privada, hogares de cuidado de la tercera edad.</td>
+            </tr>
+            <tr>
+                <td>Psicología militar</td>
+                <td>Desordenes mentales y emocionales en el estamento militar.</td>
+                <td>Hospitales e instituciones militares.</td>
+            </tr>
+            <tr>
+                <td>Psicología organizacional y empresarial</td>
+                <td>Selección y reclutamiento de personal; comportamientos que influencian la actividad laboral.</td>
+                <td>Organizaciones públicas y privadas, empresas, corporaciones, consulta privada.</td>
+            </tr>
+            <tr>
+                <td>Psicología de pareja y de familia</td>
+                <td>Apoyo a las parejas y a la familia.</td>
+                <td>Hospitales y consulta privada.</td>
+            </tr>
+        </table>
+
+        <!-- Pie de página con los créditos -->
+        <div class="seccion" style="margin-top: 30px;">
+            <h4 class="texto">Derechos de autor: Alberto Beltran, Raul Alvarez, Jesus Esquivel. Realizado: 2 de Mayo del 2022<img  style="background-color: #953333; margin-left: 150px;" src="imagenes/icono.png" alt="icono principal" height="30px">Todos los derechos reservados.</h4>
+        </div>
+    </body>
+</html>

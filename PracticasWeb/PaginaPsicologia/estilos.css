@@ -1,0 +1,107 @@
+* {
+    text-align: justify;
+}
+
+body {
+    background-color: rgb(236, 251, 254)
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    background: #cb5252;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.seccion {
+    padding: 5px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background: #cb5252;
+    border: 2px solid #cb5252;
+}
+
+.seccion2 {
+    padding: 15px;
+    background: #71D8EB;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.seccion3 {
+    padding: 15px;
+    background: #914848;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.seccion4 {
+    padding: 15px;
+    background: #914848;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+p {
+    font-family: Georgia;
+}
+
+h6 {
+    font-family: 'Lucida Console';
+}
+
+p, h6{
+    font-size: large;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+.texto {
+    background-color: #953333;
+    border-radius: 1px;
+    color: white;
+    font-family: Georgia;
+}
+
+.subtitulosmenu {
+    color: white;
+    font-family: 'Times New Roman';
+}
+
+.titulolista {
+    color: black;
+    font-family: Helvetica;
+    font-style: bold;
+}
+
+.subtitulolista {
+    color: black;
+    font-family: Helvetica;
+    font-style: italic;
+}
+
+.contenedorimagen img {
+    width: 100;
+    height: auto;
+}
+
+table, th, td {
+    border:1px solid #cb5252;
+    color: white;
+    }

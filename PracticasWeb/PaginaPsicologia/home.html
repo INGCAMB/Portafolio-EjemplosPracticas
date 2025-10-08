@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Psicología</title>
+        <!-- Ingresamos el boodstrap y agregamos el utf-8 para el ingreso de caracteres especiales en el texto -->
+        <meta charset="UTF-8"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- Estilo css para modificar el fondo y el tipo de letra en toda la pagina -->
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <!-- Este div es la cabezera principal del sitio -->
+        <div class="seccion">
+            <div class="nav nav-tabs">
+                <h2 class="texto">PsicologíaTJ<img src="imagenes/icono.png" alt="icono principal"></h2>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="home.html"><h5 class="subtitulosmenu">Inicio</h5></a></li>
+                    <li class="nav-item"><a class="nav-link" href="videos_psicologia.html"><h5 class="subtitulosmenu">Videos de psicología</h5></a></li>
+                    <li class="nav-item"><a class="nav-link" href="tipos_psicologia.html"><h5 class="subtitulosmenu">Tipos de psicología</h5></a></li>
+                    <li class="nav-item"><a class="nav-link" href="licenciaturas_psicologia.html"><h5 class="subtitulosmenu">Licenciaturas de psicología</h5></a></li>
+                    <li class="nav-item"><a class="nav-link" href="lugares_psicologia.html"><h5 class="subtitulosmenu">Lugares de psicología en Tijuana</h5></a></li>
+                    <li class="nav-item"><a class="nav-link" href="citas_psicologia.html"><h5 class="subtitulosmenu">Citas en Tijuana</h5></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Este div es el carrousel de imágenes del menú principal -->
+        <div class="seccion3">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://www.milenio.com/estilo/no-tener-suenos-esto-significa-segun-la-psicologia"><img src="imagenes/dormirpresencia.jpg" class="d-block w-100" alt="¿Qué significa no tener sueños?"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.milenio.com/aula/riesgos-de-la-sobreproteccion-de-los-hijos"><img src="imagenes/dejarhijos.jpg" class="d-block w-100" alt="Evita ser un -Padre helicóptero-"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.milenio.com/aula/los-beneficios-de-la-comedia-en-ninos-y-adolescentes"><img src="imagenes/comediaemociones.jpg" class="d-block w-100" alt="La comedia para las infancias y adolescencias: ¿Buena o mala?"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.milenio.com/ciencia-y-salud/salud-mental-como-ayudar-a-una-persona-con-problemas"><img src="imagenes/saludmental.jpg" class="d-block w-100" alt="¿Ves caras en los objetos? Este fenómeno psicológico te explica por qué"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.milenio.com/ciencia-y-salud/pareidolia-que-es-y-por-que-vemos-caras-en-objetos"><img src="imagenes/pareidolia.jpg" class="d-block w-100" alt="¿Cómo ayudar a una persona que tiene un problema de salud mental?"></a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Link para ver más noticias -->
+        <a href="https://www.milenio.com/temas/psicologia"><h4 style="text-align: center; color: red; margin-top: 10px;">Ver mas noticias...</h4></a>
+
+        <!-- Contenedor principal de la página, aquí está toda la información relevante -->
+        <div class="contenedor">
+            <h1>Psicología</h1>
+            <p>Te explicamos qué es la psicología, el origen y las ramas que componen esta ciencia. Además, sus objetivos y su relación con la educación.</p>
+            <hr>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologia.jpg" alt="Psicología" style="width:100%;height:50%;">
+            </div>
+            <h6>La psicología busca comprender la conducta humana.</h6>
+            <hr>
+            <h2>¿Qué es la psicología?</h2>
+            <p>La psicología o sicología es una ciencia social y una disciplina académica enfocadas en el análisis y la comprensión de la conducta humana y de los procesos mentales experimentados por individuos y por grupos sociales durante momentos y situaciones determinadas.</p>
+            <p>La psicología tiene un campo de estudio vasto, ya que se centra en la mente y la experiencia humanas, desde diversas perspectivas, corrientes y metodologías. Algunas de ellas son más próximas a las ciencias duras y al empleo del método científico, mientras que otras no lo consideran apropiado para el objeto de estudio, y prefieren construir métodos y abordajes propios.</p>
+            <p>En este sentido, esta ciencia social se interesa por los procesos de la percepción, la motivación, la atención, la inteligencia, el aprendizaje, el pensamiento, la personalidad, el amor, la conciencia y la inconsciencia, pero también por las relaciones interpersonales y por el funcionamiento bioquímico del cerebro.</p>
+            <p>La práctica profesional de la psicología, en cambio, suele dividirse entre la investigación académica, la educación e innovación educativa, o el ejercicio clínico, esto es, el trabajo terapéutico para entender y resolver diversas dolencias de orden emocional, psicológico o afectivo en sus pacientes. Esto último se conoce como psicoterapia.</p>
+            <p>No debe confundirse la psicología con la psiquiatría. Esta última es una rama de la medicina que estudia el comportamiento bioquímico del cerebro, sin ocuparse generalmente del contenido emocional o experiencial de los pacientes. Tampoco debe hacérselo con el psicoanálisis, que es una disciplina interpretativa y terapéutica derivada de los estudios de la mente humana de Sigmund Freud.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/definicionpsicologia.jpg" alt="¿Qué es la psicología?" style="width:100%;height:50%;">
+            </div>
+            <h6>Confiar en ti mismo no garantiza el éxito, pero no hacerlo garantiza el fracaso (Albert Bandura).</h6>
+            <hr>
+            <h2>Origen de la psicología</h2>
+            <p>La psicología es una ciencia relativamente nueva, desprendida de la filosofía a partir del siglo XVIII, a raíz de las doctrinas filosóficas del empirismo, que empezó a comprender la conducta humana como una serie de estímulos y respuestas determinadas por nuestra biología.</p>
+            <p>Así nace la psicofisiología, precursora del campo psicológico. Con el ingreso de las ciencias formales al panorama del saber, se da inicio a la posibilidad de una psicología ya no meramente teórica, sino incluso experimental.</p>
+            <p>El primer laboratorio de psicología experimental se fundó en la Universidad de Leipzig, Alemania, en 1879. A partir de entonces surgirían diversas ramas de exploración teórica y práctica de la mente humana, inaugurando un área del saber muy vasta y diversa como lo es hoy.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/origenpsicologia.png" alt="Origen de la psicología" style="width:100%;height:50%;">
+            </div>
+            <h6>El secreto de la existencia humana no sólo está en vivir, sino también en saber para qué se vive (Dostoyevski).</h6>
+            <hr>
+            <h2>Objetivo de la psicología</h2>
+            <p>Los objetivos generales de la psicología pueden resumirse en la comprensión de los procesos propios de la mente del ser humano. En ello tienen cabida numerosos enfoques y metodologías, cada uno con sus objetivos específicos, con sus abordajes puntuales de lo que son la conciencia, el pensamiento y el aprendizaje.</p>
+            <p>Dicha comprensión de la mente humana persigue la posibilidad de, por un lado, ayudar a solventar las patologías emocionales y mentales que aquejan al hombre contemporáneo, perfeccionar las herramientas que aprendizaje de las que dispone y brindar claves respecto a la naturaleza de la conciencia y de eso que nos distingue de los animales.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiaobjetivo.jpg" alt="Objetivo de la psicología" style="width:100%;height:50%;">
+            </div>
+            <h6>La experiencia sola no crea conocimiento.</h6>
+            <hr>
+            <h2>Psicología y educación</h2>
+            <p>La educación y la psicología han marchado de la mano desde la invención de esta última, ya que se ha podido entender mucho mejor cómo se dan los procesos de aprendizaje, formular teorías sobre ello y tratar de construir instituciones educativas que solventen los problemas de la sociedad humana atendiéndolos desde su germen: las generaciones venideras que aún son jóvenes.</p>
+            <div class="contenedorimagen">
+                <img src="imagenes/psicologiaeducacion.jpg" alt="Psicología y educación" style="width:100%;height:50%;">
+            </div>
+            <h6>La psicología ayuda a comprender los procesos del aprendizaje.</h6>
+            <hr>
+        </div>
+
+        <!-- Pie de página con los créditos -->
+        <div class="seccion" style="margin-top: 30px;">
+            <h4 class="texto">Derechos de autor: Alberto Beltran, Raul Alvarez, Jesus Esquivel. Realizado: 2 de Mayo del 2022<img  style="background-color: #953333; margin-left: 150px;" src="imagenes/icono.png" alt="icono principal" height="30px">Todos los derechos reservados.</h4>
+        </div>
+    </body>
+</html>
